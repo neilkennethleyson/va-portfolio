@@ -45,6 +45,8 @@ a {
 
 .nav-container {
     min-height: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
 
     display: flex;
     align-items: center;
