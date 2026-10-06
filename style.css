@@ -76,12 +76,22 @@ nav a:hover {
 ========================= */
 
 .hero {
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
-    background: #f8fafc;
-}
+    padding-top: 20px;
 
+    background-image:
+        linear-gradient(
+            rgba(248, 250, 252, 0.35),
+            rgba(248, 250, 252, 0.55)
+        ),
+        url("assets/profilephoto.jpg");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .hero .container {
     width: auto;
     margin: 0;
@@ -90,10 +100,12 @@ nav a:hover {
 }
 
 .hero-content {
-    max-width: 850px;
+    max-width: 800px;
+    margin-left: 0;
+    margin-right: auto;
     text-align: left;
+    padding-left: 40px;
 }
-
 .eyebrow,
 .section-label {
     font-size: 0.8rem;
@@ -374,10 +386,10 @@ footer p {
         justify-content: center;
     }
 
-    .hero {
-        min-height: 70vh;
-    }
-
+.hero {
+    min-height: 70vh;
+    background-position: right center;
+}
     .hero h1 {
         font-size: 3rem;
     }
