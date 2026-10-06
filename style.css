@@ -119,7 +119,9 @@ nav a:hover {
     line-height: 1.05;
     margin-bottom: 30px;
 }
-
+.hero-dark {
+    color: #374151;
+}
 .hero-description {
     max-width: 700px;
     font-size: 1.35rem;
