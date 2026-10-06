@@ -81,12 +81,7 @@ nav a:hover {
     align-items: center;
     padding-top: 20px;
 
-    background-image:
-        linear-gradient(
-            rgba(248, 250, 252, 0.35),
-            rgba(248, 250, 252, 0.55)
-        ),
-        url("assets/profile.png");
+    background-image: url("assets/profile.png");
 
     background-size: contain;
     background-position: center;
