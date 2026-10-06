@@ -23,7 +23,10 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
+.container {
+    width: min(1100px, 90%);
+    margin: 0 auto;
+}
 .nav-container {
     width: 100%;
     padding-left: 40px;
