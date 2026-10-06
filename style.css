@@ -77,15 +77,21 @@ nav a:hover {
 
 .hero {
     min-height: 80vh;
-
     display: flex;
     align-items: center;
-
     background: #f8fafc;
+}
+
+.hero .container {
+    width: auto;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .hero-content {
     max-width: 850px;
+    text-align: left;
 }
 
 .eyebrow,
