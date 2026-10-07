@@ -89,7 +89,7 @@ nav a:hover {
     background-image: url("assets/profile.png");
 
     background-size: 80%;
-    background-position: center;
+    background-position: right 40px center;
     background-repeat: no-repeat;
 }
 .hero .container {
